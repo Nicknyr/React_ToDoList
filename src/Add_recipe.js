@@ -44,7 +44,7 @@ export default class AddRecipe extends Component {
           value={this.state.userInput}
           type="text"
         />
-        <button onClick={ () => this.addToList(this.state.userInput)}>Press Me</button>
+        <button onClick={ () => this.addToList(this.state.userInput)}>Add Recipe</button>
 
         <ul>
           {this.state.list.map( (val) => <li>{val}</li>)}
